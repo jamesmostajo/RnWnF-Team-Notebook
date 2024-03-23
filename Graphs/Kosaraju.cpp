@@ -63,7 +63,5 @@ int main() {
 
             if (root_u != root_v)
                 adj_scc[root_v].push_back(root_u);
-        }
-    }
-}
+    }}}
 

@@ -27,10 +27,7 @@ void dijkstra(int s, vector<int> & d, vector<int> & p) {
                 d[to] = d[v] + len;
                 p[to] = v;
                 q.insert({d[to], to});
-            }
-        }
-    }
-}
+}}}}
 
 // python pseudocode(not tested)
 import heapq

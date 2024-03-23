@@ -17,10 +17,7 @@ void bfs(int n, int s){  // number of nodes, source vertex
                 q.push(u);
                 d[u] = d[v] + 1;
                 p[u] = v;
-            }
-        }
-    }
-}
+}}}}
 
 // python pseudocode(not tested)
 distance = [-1 for _ in range(n + 1)]

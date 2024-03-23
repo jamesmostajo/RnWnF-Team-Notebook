@@ -13,7 +13,4 @@ void primeSieve(){
             for (ll j=2*i; j<n; j+=i){
                 isPrime[j] = false;
                 numFact[j]++;
-            }
-        }
-    }
-}
+}}}}

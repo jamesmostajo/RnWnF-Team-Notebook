@@ -6,9 +6,7 @@ vector<int> ans;
 void dfs(int v) {
     visited[v] = true;
     for (int u : adj[v]) {
-        if (!visited[u])
-            dfs(u);
-    }
+        if (!visited[u])dfs(u);}
     ans.push_back(v);
 }
 
@@ -18,8 +16,7 @@ void topological_sort() {
     for (int i = 0; i < n; ++i) {
         if (!visited[i]) {
             dfs(i);
-        }
-    }
+    }}
     reverse(ans.begin(), ans.end());
 }
 

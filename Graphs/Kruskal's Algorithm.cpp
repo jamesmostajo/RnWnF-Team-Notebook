@@ -25,6 +25,4 @@ for (Edge e : edges) {
         for (int i = 0; i < n; i++) {
             if (tree_id[i] == old_id)
                 tree_id[i] = new_id;
-        }
-    }
-}
+}}}
